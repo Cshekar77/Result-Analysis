@@ -149,7 +149,8 @@ for i in range(len(raw)):
 # Step 6: Export all students
 # -------------------------------
 df_students = pd.DataFrame(all_students)
-output_path = r"C:\Users\Desktop\Desktop\project\data\processed_all_students.xlsx"
+output_path = r"Path of output file"
 df_students.to_excel(output_path, index=False)
 
 print(f"✅ Exported all students results to {output_path}")
+
